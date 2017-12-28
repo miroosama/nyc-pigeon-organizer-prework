@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name].has_key?(property)
           my_hash[str][property] = []
         end
-if !new_hash[name][property].include?(attribute)
+if !new_hash[str][property].include?(attribute)
           my_hash[str][property] << attribute.to_s
         end
       end
