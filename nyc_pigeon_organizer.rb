@@ -6,4 +6,16 @@ def nyc_pigeon_organizer(data)
       array.each do |str|
         if !my_hash.has_key?(str)
           my_hash[str] = {}
+        end
+        if !new_hash[name].has_key?(property)
+          new_hash[name][property] = []
+        end
+if !new_hash[name][property].include?(attribute)
+          new_hash[name][property] << attribute.to_s
+        end
+      end
+   end
+ end
+end
+new_hash
 end
