@@ -17,5 +17,5 @@ if !new_hash[name][property].include?(attribute)
    end
  end
 end
-new_hash
+my_hash
 end
