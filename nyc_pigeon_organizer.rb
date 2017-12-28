@@ -15,7 +15,6 @@ if !my_hash[str][property].include?(attribute)
         end
       end
    end
- end
 end
 my_hash
 end
